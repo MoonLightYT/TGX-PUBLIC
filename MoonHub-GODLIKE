@@ -4,6 +4,7 @@ local whitelist = {
     "RYU_5K8", 
     "FREE36262626262", 
     "XxmanticoreYT", 
+    "khiylin222222", 
 }
 
 local function isWhitelisted(username)
