@@ -28,14 +28,14 @@ local InterfaceManager = loadstring(game:HttpGetAsync("https://raw.githubusercon
 
 -- Ã°Å¸Â  CrÃƒÂ©ation de la fenÃƒÂªtre principale
 local Window = Library:CreateWindow{
-    Title = "MoonHub",
-    SubTitle = "By X3NO ",
+    Title = "TGX PUBLIC",
+    SubTitle = "By Godlike",
     TabWidth = 125,
     Size = UDim2.fromOffset(830, 525),
     Resize = true,
     MinSize = Vector2.new(470, 380),
     Acrylic = true,
-    Theme = "DuoTone Dark Sea",
+    Theme = "Light",
       MinimizeKey = Enum.KeyCode.RightControl
 }
 local Tabs = {
@@ -119,7 +119,7 @@ local Toggle = Tabs.Main:CreateToggle("AutoSize", {
 
 local selectedSpeed = "125"
 local Input = Tabs.Main:CreateInput("SpeedChanger", {
-	Title = "Speed Changer",
+	Title = "Auto Set Speed",
 	Description = "Enter Speed",
 	Default = "125",
 	Placeholder = "Enter Speed",
